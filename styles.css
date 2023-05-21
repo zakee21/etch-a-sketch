@@ -21,3 +21,14 @@
 .box:hover {
     background-color: blueviolet;
 }
+
+.test {
+    text-align: center;
+    border-color: black;
+    border-width: thick;
+    border-radius: 3px;
+    background-color: aqua;
+    height: 16px;
+    width: 16px;
+    padding: 4px;
+}
