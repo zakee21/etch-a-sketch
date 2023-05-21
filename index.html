@@ -13,8 +13,11 @@
         <h1>Etch-a-Sketch</h1>
         <div id="container">
         </div>
-        <input type="number">
+        <input type="number" min="2" max="100">
+        <button onclick="divBox(document.querySelector('input').value * document.querySelector('input').value)">Resize</button>
     </div>
-    
+    <button id="reset">
+        <a href="./index.html">RESET</a>
+    </button>
 </body>
 </html>

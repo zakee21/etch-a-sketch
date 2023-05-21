@@ -10,12 +10,15 @@ body {
     justify-content: center;
     align-items: center;
     color: rgb(217, 187, 112);
-    background-color: red;
+    background-color: rgb(221, 4, 4);
     font-family:cursive;
     font-size: large;
-    padding: 10px 30px 40px 30px;
+    padding: 10px 90px 40px 90px;
+    margin-top: 1em;
     width: min-content;
     border-radius: 10%;
+    border: 5px solid black;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 23px 0 rgba(0, 0, 0, 0.19);
 }
 
 #container {
@@ -36,4 +39,24 @@ body {
     min-width: 6.6666%;
     min-height: auto;
     aspect-ratio: 1/1;
+}
+
+
+button {
+    color: rgb(217, 187, 112);
+    background-color: rgb(221, 4, 4);
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+input {
+    height: 1.5em;
+    width: 4.5em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
