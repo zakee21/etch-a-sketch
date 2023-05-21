@@ -19,8 +19,10 @@ function changeBackground() {
     //};
 };
 
-divBox(256);
+divBox(15*15);
 
+//100/amount of squares in one row = min width % in css file
+//i.e. 15x15 box: 100/15 = 6.66666, therefore min-width = 6.6666%
 
 //turn the 256 divs into squares
 //line up the divs into a 16 rows and 16 columns
