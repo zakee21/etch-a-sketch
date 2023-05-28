@@ -16,7 +16,14 @@ function changeBackground() {
     this.style.backgroundColor = 'black';
 };
 
-//divBox(16);
+function removeBox() {
+    const box = document.querySelectorAll('.box');
+    for (let i = 0; i < box.length; i++) {
+        box[i].remove();
+    };
+};
+
+divBox(16);
 
 //logic and equation for calculating the width/height of each box:
 //user enters number of boxes per row: 4
