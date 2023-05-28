@@ -1,5 +1,5 @@
-//creat 16 x 16 divs which equals 256 individual divs
 //function to create boxes with mouseover eventListeners using a "for" loop
+    //Includes calculating boxes to appropriate size
 function divBox (box) {
     for (i = 0; i < Math.pow(box, 2); i++) {
         const container = document.querySelector('#container');
@@ -16,6 +16,7 @@ function changeBackground() {
     this.style.backgroundColor = 'black';
 };
 
+//function to remove old grid boxes before adding new grid boxes
 function removeBox() {
     const box = document.querySelectorAll('.box');
     for (let i = 0; i < box.length; i++) {
@@ -23,14 +24,5 @@ function removeBox() {
     };
 };
 
+//Call function to set grid size default at 16 x 16 when page loads
 divBox(16);
-
-//logic and equation for calculating the width/height of each box:
-//user enters number of boxes per row: 4
-//4 is multiplied by 4 to get total number of boxes: 16
-// box then = 16
-//must divid 100 by the original number entered by user (4),
-    // which can be obtained with finding it's square root
-
-//turn the 256 divs into squares
-//line up the divs into a 16 rows and 16 columns
